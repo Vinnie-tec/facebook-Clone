@@ -19,7 +19,7 @@ import HeaderIcon from "./HeaderIcon";
 
 function Header() {
   const { data: session, status } = useSession();
-  console.log(session);
+  console.log(session, status);
 
   return (
     <div className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
